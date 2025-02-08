@@ -51,5 +51,14 @@
     "dark": "/logo/dark.svg"
   },
   "navbar": {},
-  "footer": {}
+  "footer": {},
+   "api": {
+    "mdx": {
+      "server": "https://api.bloxpro.co.uk", // string array for multiple base URLs
+      "auth": {
+        "method": "key",
+        "name": "x-api-key" // options: bearer, basic, key.
+      }
+  }
+}
 }
