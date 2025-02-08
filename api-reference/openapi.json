@@ -21,15 +21,15 @@
   "paths": {
     "/v1/xp": {
       "get": {
-        "description": "Returns all plants from the system that the user has access to",
+        "description": "Returns the amount of XP a user has",
         "parameters": [
           {
-            "name": "limit",
-            "in": "query",
-            "description": "The maximum number of results to return",
+            "name": "userId",
+            "in": "params",
+            "description": "Their Roblox ID",
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string",
+              "format": "string"
             }
           }
         ],
