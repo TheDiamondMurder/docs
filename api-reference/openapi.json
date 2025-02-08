@@ -19,7 +19,7 @@
     }
   ],
   "paths": {
-    "/v1/xp/:userId": {
+    "/plants": {
       "get": {
         "description": "Gets the User's XP",
         "parameters": [
