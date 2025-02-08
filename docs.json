@@ -53,8 +53,8 @@
     "navbar": {},
     "footer": {},
     "api": {
-        "mdx": {
-            "server": "https://api.bloxpro.co.uk"
+        "playground": {
+          "display": "none"
         }
     }
 }
