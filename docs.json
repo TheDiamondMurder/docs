@@ -16,9 +16,9 @@
           {
             "group": "Get Started",
             "pages": [
-              "welcome",
-              "quickstart",
-              "development"
+              "introduction",
+              "adding",
+              "verify"
             ]
           },
           {
