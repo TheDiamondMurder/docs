@@ -19,7 +19,7 @@
     }
   ],
   "paths": {
-    "/xp": {
+    "/XP": {
       "get": {
         "description": "Gets the User's XP",
         "parameters": [
