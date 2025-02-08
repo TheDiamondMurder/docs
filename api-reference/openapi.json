@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "BloxPro API",
-    "description": "BloxPro's API",
+    "title": "OpenAPI Plant Store",
+    "description": "A sample API that uses a plant store as an example to demonstrate features in the OpenAPI specification",
     "license": {
       "name": "MIT"
     },
@@ -10,7 +10,7 @@
   },
   "servers": [
     {
-      "url": "http://api.bloxpro.co.uk"
+      "url": "http://sandbox.mintlify.com"
     }
   ],
   "security": [
@@ -19,17 +19,17 @@
     }
   ],
   "paths": {
-    "/XP": {
+    "/plants": {
       "get": {
-        "description": "Gets the User's XP",
+        "description": "Returns all plants from the system that the user has access to",
         "parameters": [
           {
-            "name": "userId",
-            "in": "params",
-            "description": "The user's Roblox ID",
+            "name": "limit",
+            "in": "query",
+            "description": "The maximum number of results to return",
             "schema": {
-              "type": "string",
-              "format": "string"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
