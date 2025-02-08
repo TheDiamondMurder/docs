@@ -19,10 +19,9 @@
               "welcome",
               "adding",
               "verify",
-              "setup"
+              "setup",
             ]
-          },
-          
+          }
         ]
       },
       {
