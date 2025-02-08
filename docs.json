@@ -1,64 +1,55 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "BloxPro Documentation",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Bot",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "welcome",
-              "adding",
-              "verify",
-              "setup"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoints",
-            "pages": [
-              "api-reference/endpoint/get"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": []
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {},
-  "footer": {},
-   "api": {
-    "mdx": {
-      "server": "https://api.bloxpro.co.uk", // string array for multiple base URLs
-      "auth": {
-        "method": "key",
-        "name": "x-api-key" // options: bearer, basic, key.
-      }
-  }
-}
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "BloxPro Documentation",
+    "colors": {
+        "primary": "#16A34A",
+        "light": "#07C983",
+        "dark": "#15803D"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "Bot",
+                "groups": [
+                    {
+                        "group": "Get Started",
+                        "pages": [
+                            "welcome",
+                            "adding",
+                            "verify",
+                            "setup"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "API Reference",
+                "groups": [
+                    {
+                        "group": "API Documentation",
+                        "pages": [
+                            "api-reference/introduction"
+                        ]
+                    },
+                    {
+                        "group": "Endpoints",
+                        "pages": [
+                            "api-reference/endpoint/get"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "global": {
+            "anchors": []
+        }
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "navbar": {},
+    "footer": {}
 }
