@@ -18,7 +18,8 @@
             "pages": [
               "welcome",
               "adding",
-              "verify"
+              "verify",
+              "setup",
             ]
           },
           {
