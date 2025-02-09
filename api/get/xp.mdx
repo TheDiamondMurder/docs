@@ -1,0 +1,34 @@
+---
+title: "Get XP"
+description: "Fetches a users XP"
+---
+
+<Card title="GET">
+  /v1/xp/\{userID}
+</Card>
+
+## Inputs
+
+<CodeGroup>
+  ```json Headers
+  token: "your-groups-token"
+  guildid: "your-servers-id"
+  ```
+
+  ```json Params
+  userID: "roblox-user-id"
+  ```
+</CodeGroup>
+
+## Output
+
+<CodeGroup>
+  ```json 200
+  {
+    "xp": 0, // the amount of XP the user has
+    "username": "ExampleUser" // their username
+  }
+  ```
+</CodeGroup>
+
+##
