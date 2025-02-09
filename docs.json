@@ -33,7 +33,8 @@
                     {
                       "group": "Configuration",
                       "pages": [
-                          "configuration/permissions"
+                          "configuration/permissions",
+                          "configuration/ranks"
                       ]
                     }
                 ]

@@ -1,0 +1,68 @@
+---
+title: "Ranks"
+description: "Configuring ranks in your group"
+---
+
+Managing ranks is a core feature of BloxPro, it is how you configure the bot to your server's group ranks.
+
+First of all, when you are starting, you will need to initialise the ranks from the group into the database.
+
+```
+/rank init
+```
+
+This copies all your ranks from your group and puts them in your discord server ready to be configured.
+
+Any time you make any changes to the ranks in your Roblox group, you will need to update them with a **different** command
+
+```
+/rank update
+```
+
+In comparison to the init command, this command just checks the differences between your database and the roblox group, and makes the required changes.
+
+***
+
+## Rank Configuration[](#rank-configuration)
+
+To configure your ranks in the group, you can use these commands
+
+```
+/rank lock [rank ids]
+```
+
+Allows you to lock one or more ranks from auto promotion. Players cannot be auto promoted to that rank by a bot if it is locked.
+
+```
+/rank unlock [rank ids]
+```
+
+Exact same as the previous command, it just unlocks it instead.
+
+```
+/rank xp [rank id] [xp]
+```
+
+This sets the minumum XP required for a rank. If the user has more XP than this they will be promoted to this rank
+
+```
+/rank addmedal [rank id] [medal id]
+```
+
+Bind's a medal to a rank, if a user gets to this rank, they will recieve a medal (they will only recieve this medal once)
+
+```
+/rank removemedal [rank id] [medal id]
+```
+
+This will remove a ranks medal.
+
+```
+/rank prefix [rank id] (prefix)
+```
+
+This will add a prefix to rank, this prefix will be given to a users nickname when they do /getroles. You can remove a prefix by leaving the prefix input empty
+
+<Info>
+  You must set up your nickname format correctly for the prefix to be displayed
+</Info>
