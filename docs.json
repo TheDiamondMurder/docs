@@ -30,13 +30,13 @@
                     {
                         "group": "API Documentation",
                         "pages": [
-                            "api/apiintro"
+                            "/api/apiintro"
                         ]
                     },
                     {
                         "group": "Endpoints",
                         "pages": [
-                            "api/get/xp"
+                            "/api/get/xp"
                         ]
                     }
                 ]
