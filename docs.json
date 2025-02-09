@@ -34,7 +34,8 @@
                       "group": "Configuration",
                       "pages": [
                           "configuration/permissions",
-                          "configuration/ranks"
+                          "configuration/ranks",
+                          "configuration/settings"
                       ]
                     }
                 ]
