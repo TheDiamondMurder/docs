@@ -52,7 +52,8 @@
                     {
                         "group": "Endpoints",
                         "pages": [
-                            "bloxproapi/get/xp"
+                            "bloxproapi/get/xp",
+                            "bloxproapi/get/medals"
                         ]
                     }
                 ]
