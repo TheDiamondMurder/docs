@@ -1,0 +1,60 @@
+---
+title: "Permissions"
+description: "How to configure permissions"
+---
+
+BloxPro makes configuring your server's permissions easy. You can add roles to 3 seperate categories: Owner, HICOM and Officer. You can also then configure what each category can do and what they have access to.
+
+<img height="455" width="473" src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FZaKJVnckNb0nrpnngOU9%2Fuploads%2FKHXYw1kfFV6jFBDpbkqB%2F%7B1662A7E7-7FA2-4CC2-BFC2-6E58416586FF%7D.png?alt=media&token=6014d62c-4680-41ac-9eb5-7d07a8e6ca99" />
+
+***
+
+### Adding roles to permission[](#adding-roles-to-permission)
+
+<Warning>
+  Only the Discord Server owner can configure the servers permissions
+</Warning>
+
+It's pretty simple to add roles to a category
+
+```
+/perms addofficerrole [@role]
+/perms addhicomrole [@role]
+/perms addownerrole [@role]
+```
+
+Each of those commands will add the role to its respective category.
+
+***
+
+### Removing roles from a permission[](#removing-roles-from-a-permission)
+
+If you want to remove a role from the permission category:
+
+```
+/perms removeofficerrole [@role]
+/perms removehicomrole [@role]
+/perms removeownerrole [@role]
+```
+
+***
+
+### Configuring what each group can do[](#configuring-what-each-group-can-do)
+
+<Warning>
+  This is a BloxPro+ Premium Feature and requires a BloxPro+ Premium license
+</Warning>
+
+```
+/perms changeperm [Permission Node] [Group]
+```
+
+Example:
+
+<img height="107" width="695" src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FZaKJVnckNb0nrpnngOU9%2Fuploads%2F9T1fIaYIJpSnFhqdPGfL%2F%7BCA3769E3-BF02-4AA7-A589-EA9D38B82260%7D.png?alt=media&token=175bc92e-31c7-45b0-8c27-f6da0bbe9508" />
+
+<Tip>
+  You can view all the permission nodes via **/perms** and clicking the gear icon
+</Tip>
+
+<img height="762" width="418" src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FZaKJVnckNb0nrpnngOU9%2Fuploads%2F2BhCbWYho9LXitwfC4NF%2Fimage.png?alt=media&token=39c93a68-0da7-47e2-892a-06e7614600a9" />

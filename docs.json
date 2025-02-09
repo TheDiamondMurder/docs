@@ -29,6 +29,12 @@
                             "the-basics/updating",
                             "the-basics/licenses"
                         ]
+                    },
+                    {
+                      "group": "Configuration",
+                      "pages": [
+                          "configuration/permissions"
+                      ]
                     }
                 ]
             },
