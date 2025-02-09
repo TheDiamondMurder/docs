@@ -1,0 +1,34 @@
+---
+title: "Get Medals"
+description: "Fetches a users Medals"
+---
+
+<Card title="GET">
+  /v1/medals/\{userID}
+</Card>
+
+## Inputs
+
+<CodeGroup>
+  ```json Headers
+  token: "your-groups-token"
+  guildid: "your-servers-id"
+  ```
+
+  ```json Params
+  userID: "roblox-user-id"
+  ```
+</CodeGroup>
+
+## Output
+
+<CodeGroup>
+  ```json 200
+  {
+    "medals": [], // the array of medal IDs the user has
+    "username": "ExampleUser" // their username
+  }
+  ```
+</CodeGroup>
+
+##

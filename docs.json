@@ -21,6 +21,13 @@
                             "verify",
                             "setup"
                         ]
+                    },
+                    {
+                        "group": "The Basics",
+                        "pages": [
+                            "the-basics/getroles",
+                            "the-basics/updating"
+                        ]
                     }
                 ]
             },
@@ -40,17 +47,6 @@
                         ]
                     }
                 ]
-            },
-            {
-              "tab": "Goon",
-              "groups": [
-                {
-                  "group": "Pro gooning",
-                  "pages": [
-                      "test/testgoon"
-                  ]
-                }
-              ]
             }
         ],
         "global": {
@@ -65,7 +61,7 @@
     "footer": {},
     "api": {
         "playground": {
-          "display": "none"
+            "display": "none"
         }
     }
 }
