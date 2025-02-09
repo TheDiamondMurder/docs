@@ -30,16 +30,27 @@
                     {
                         "group": "API Documentation",
                         "pages": [
-                            "/api/index"
+                            "api/index"
                         ]
                     },
                     {
                         "group": "Endpoints",
                         "pages": [
-                            "/api/get/xp"
+                            "api/get/xp"
                         ]
                     }
                 ]
+            },
+            {
+              "tab": "Goon",
+              "groups": [
+                {
+                  "group": "Pro gooning",
+                  "pages": [
+                      "test/testgoon"
+                  ]
+                }
+              ]
             }
         ],
         "global": {
