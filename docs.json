@@ -28,15 +28,15 @@
                 "tab": "API",
                 "groups": [
                     {
-                        "group": "API Documentation",
+                        "group": "Basics",
                         "pages": [
-                            "api/index"
+                            "bloxproapi/index"
                         ]
                     },
                     {
                         "group": "Endpoints",
                         "pages": [
-                            "api/get/xp"
+                            "bloxproapi/get/xp"
                         ]
                     }
                 ]
