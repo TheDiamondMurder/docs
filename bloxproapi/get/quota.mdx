@@ -1,0 +1,34 @@
+---
+title: "Get Quota"
+description: "Fetches a users Quota"
+---
+
+<Card title="GET">
+  /v1/quota/\{userID}
+</Card>
+
+## Inputs
+
+<CodeGroup>
+  ```json Headers
+  token: "your-groups-token"
+  guildid: "your-servers-id"
+  ```
+
+  ```json Params
+  userID: "roblox-user-id"
+  ```
+</CodeGroup>
+
+## Output
+
+<CodeGroup>
+  ```json 200
+  {
+    "InactivityNotices": false, // do they have an inactivity notice
+    "QuotaPoints": 0 // their quota points
+  }
+  ```
+</CodeGroup>
+
+##

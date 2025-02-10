@@ -56,7 +56,9 @@
                             "bloxproapi/get/medals",
                             "bloxproapi/get/blacklist",
                             "bloxproapi/get/qualifications",
-                            "bloxproapi/get/user-qualifications"
+                            "bloxproapi/get/user-qualifications",
+                            "bloxproapi/get/quota",
+                            "bloxproapi/get/records"
                         ]
                     }
                 ]
