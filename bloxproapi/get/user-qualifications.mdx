@@ -1,0 +1,34 @@
+---
+title: "Get User's Qualifications"
+description: "Fetches a users Qualifications"
+---
+
+<Card title="GET">
+  /v1/qualifications/\{userID}
+</Card>
+
+## Inputs
+
+<CodeGroup>
+  ```json Headers
+  token: "your-groups-token"
+  guildid: "your-servers-id"
+  ```
+
+  ```json Params
+  userID: "roblox-user-id"
+  ```
+</CodeGroup>
+
+## Output
+
+<CodeGroup>
+  ```json 200
+  {
+    "qualifications": [], // the array of qualifications the user has
+    "username": "ExampleUser" // their username
+  }
+  ```
+</CodeGroup>
+
+##

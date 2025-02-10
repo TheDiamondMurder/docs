@@ -53,7 +53,10 @@
                         "group": "Endpoints",
                         "pages": [
                             "bloxproapi/get/xp",
-                            "bloxproapi/get/medals"
+                            "bloxproapi/get/medals",
+                            "bloxproapi/get/blacklist",
+                            "bloxproapi/get/qualifications",
+                            "bloxproapi/get/user-qualifications"
                         ]
                     }
                 ]
