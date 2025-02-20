@@ -35,7 +35,8 @@
                       "pages": [
                           "configuration/permissions",
                           "configuration/ranks",
-                          "configuration/settings"
+                          "configuration/settings",
+                          "configuration/groupbinds"
                       ]
                     }
                 ]
