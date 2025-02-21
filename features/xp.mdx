@@ -1,0 +1,33 @@
+---
+title: "New file"
+description: "How our XP system works"
+---
+
+The XP system is a system that allows players in your group to gain XP by attending events, trainings etc, and then be rewarded points for doing so, and eventually, ranking up if they reach adequate points for the next rank. However, you can lock ranks, this means that the bot will not auto promote the user to that rank, even if they have enough XP, and will skip that rank if there is a rank ahead that is unlocked.
+
+## Viewing a users XP
+
+```json
+/xp view // Allows you to view your own XP (must be verified)
+/xp view (Roblox Username) // View another user's XP
+```
+
+## How does XP get added?
+
+XP Is added when users with permissions give users XP, for example, you can have high ranks giving lower ranks XP for attending training, events etc.
+
+It can be added with commands
+
+```json
+/xp add [Username] [Amount] // Adds XP to a singular user
+/xp bulkadd [Usernames] [Amount] // Adds XP to multiple users
+/xp batchadd [User1:Amount User2:Amount...] // Adds variable XP to multiple users
+```
+
+## How do I remove XP?
+
+XP can be removed just as quickly as it can be added
+
+```json
+/xp remove [Username] [Amount]
+```
