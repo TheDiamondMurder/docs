@@ -73,7 +73,25 @@
                         ]
                     }
                 ]
-            }
+            },
+			{
+				"tab": "News",
+				"groups": [
+					{
+						"group": "General",
+						"pages": [
+							"news/roadmap"
+						]
+					},
+					{
+						"group": "Patch Notes",
+						"pages": [
+							"news/patch-notes/1.0"
+						]
+					}
+				]
+			}
+
         ],
         "global": {
             "anchors": []
