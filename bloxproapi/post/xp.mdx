@@ -1,0 +1,38 @@
+---
+title: "Set XP"
+description: "Sets a users experience points"
+---
+
+<Card title="POST">
+  /v1/xp/{userId}
+</Card>
+
+## Inputs
+
+<CodeGroup>
+
+```json Headers
+token: "your-groups-token"
+guildid: "your-servers-id"
+amount: 0 // amount of XP
+method: "method" //add, remove, set
+```
+
+
+```json Params
+userId: "roblox-user-id"
+```
+
+</CodeGroup>
+
+## Output
+
+<CodeGroup>
+
+```json 200
+Depends on Method
+```
+
+</CodeGroup>
+
+## 
