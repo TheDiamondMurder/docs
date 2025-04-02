@@ -21,9 +21,15 @@ Any time you make any changes to the ranks in your Roblox group, you will need t
 
 In comparison to the init command, this command just checks the differences between your database and the roblox group, and makes the required changes.
 
-***
+You can then view a rank or all your ranks
 
-## Rank Configuration[](#rank-configuration)
+```
+/rank view (Rank ID)
+```
+
+---
+
+## Rank Configuration
 
 To configure your ranks in the group, you can use these commands
 
@@ -66,3 +72,15 @@ This will add a prefix to rank, this prefix will be given to a users nickname wh
 <Info>
   You must set up your nickname format correctly for the prefix to be displayed
 </Info>
+
+To bind your ranks to a discord role, you can add roles to the rank
+
+```
+/rank addrole [Rank ID] [@Role]
+```
+
+Then you can remove roles from ranks
+
+```
+/rank removerole [Rank ID] [@Role]
+```
