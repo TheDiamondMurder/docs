@@ -40,6 +40,14 @@
                           "configuration/settings",
                           "configuration/groupbinds"
                       ]
+                    },
+                    {
+                      "group": "Features",
+                      "pages": [
+                        "features/xp",
+                        "features/terminate",
+                        "features/qualifications"
+                      ]
                     }
                 ]
             },

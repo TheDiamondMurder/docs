@@ -1,0 +1,41 @@
+---
+title: "Qualifications"
+description: "The Qualifications feature"
+---
+
+Qualifications are items that a member can hold to say they are qualified for something. You can make this anything you want and then assign players to it, and even set the qualification expiry date.
+
+```
+/qualification create [Name] [Description [Emoji Icon]
+```
+
+This will create a Qualification that you can then assign to users
+
+```
+/qualifications assign [Username] [Qualification ID] (Valid for)
+```
+
+Valid for is how many days the qualification will be valid for the user.
+
+You can view a user's qualifications in their profile with **/profile**
+
+Here are the rest of the qualification commands
+
+```javascript
+/qualifications view // View qualifications or a specific one
+/qualifications remove // Removes a qualification from the database
+/qualifications revoke // Revokes a users qualification (needs to be their qualification ID and not the qualifications ID)
+/qu
+```
+
+### What is the difference between Qualification ID and User's Qualification ID?
+
+Qualification ID is an ID that identifies a qualification created in the server\
+Example:
+
+![image.png](/image_2025-04-02_185816091.png)
+
+And a User's Qualification ID is the ID of their qualification that they have\
+Example:
+
+![image.png](/image_2025-04-02_185906208.png)
