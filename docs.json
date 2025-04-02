@@ -53,7 +53,7 @@
                         ]
                     },
                     {
-                        "group": "Endpoints",
+                        "group": "GET Endpoints",
                         "pages": [
                             "bloxproapi/get/xp",
                             "bloxproapi/get/medals",
@@ -62,6 +62,14 @@
                             "bloxproapi/get/user-qualifications",
                             "bloxproapi/get/quota",
                             "bloxproapi/get/records"
+                        ]
+                    },
+                  {
+                        "group": "POST Endpoints",
+                        "pages": [
+                            "bloxproapi/post/xp",
+                            "bloxproapi/post/medals",
+                            "bloxproapi/post/qualifications"
                         ]
                     }
                 ]
