@@ -94,6 +94,7 @@
 					{
 						"group": "Patch Notes",
 						"pages": [
+                            "news/patch-notes/1.0.1",
 							"news/patch-notes/1.0"
 						]
 					}
