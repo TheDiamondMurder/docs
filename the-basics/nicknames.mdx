@@ -1,0 +1,55 @@
+---
+title: "Updating Nicknames"
+description: "How to automatically change nicknames based on ranks"
+---
+
+If you want to have users with nicknames that match their rank & Roblox account
+
+E.g: [O6] JoelHCraft
+
+This is how you would do it
+
+<Steps>
+  <Step title="Enable Auto Nickname">
+    You can enable AutoNicknames with the following command
+
+    ```
+    /settings autonickname true
+    ```
+  </Step>
+  <Step title="Set a Username Format">
+    Set a username format to whatever you want it to be with these placeholders:
+
+    **{roblox_username}** Their Roblox Username\
+    **{roblox_nickname}** Their Roblox Display Name\
+    **{discord_name}** Their Discord Name\
+    **{rank_prefix}** Their Roblox Rank's prefix
+
+    You can set that with the following command
+
+    ```
+    /settings nickname [Format]
+    ```
+
+    An example format: {rank_prefix} {roblox_username}
+  </Step>
+  <Step title="Create a Rank Prefix">
+    Add a Rank Prefix to a Rank
+
+    ```
+    /rank prefix [Rank ID] (prefix)
+    ```
+
+    To remove the prefix from that rank, just leave the prefix input blank
+  </Step>
+</Steps>
+
+After that, a user should be able to run **/getroles** and recieve their new nickname
+
+<Warning>
+  Make sure that the BloxPro bot has permissions to change nicknames
+</Warning>
+
+<Danger>
+  BloxPro cannot change the Server Owner's nickname
+</Danger>
