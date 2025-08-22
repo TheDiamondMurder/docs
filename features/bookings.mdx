@@ -1,0 +1,48 @@
+---
+title: "Booking System"
+description: "How the booking system works"
+---
+
+The Booking system allows users to book predefined events created by admins (known as booking types), and allows certain roles to host them.
+
+To create a booking type, the role defines what role can host this booking
+
+```
+/bookingconfig create [Name] [Description] [@Role]
+```
+
+![image.png](/images/image.png)
+
+You can view all booking types created
+
+```
+/bookingconfig view
+```
+
+![Image 2025 08 22 165935131 Pn](/images/image_2025-08-22_165935131.png)
+
+To host a booking type, you need to have the defined role to host it
+
+```
+/booking create [Booking Type ID] [Day] [Month] [Year] [Hour] (Roles) (Spaces)
+```
+
+Booking Type ID is the ID of the booking type you want to host
+
+Day, Month, Year, Hour is the time and date the booking will happen.
+
+You can add roles which can attend this booking or leave blank for everyone
+
+Spaces is how many people can book the event
+
+![Image 2025 08 22 170037807 Pn](/images/image_2025-08-22_170037807.png)
+
+You can then manage that booking
+
+![Image 2025 08 22 170115918 Pn](/images/image_2025-08-22_170115918.png)
+
+To book a slot
+
+```
+/booking book [Reference Number]
+```
